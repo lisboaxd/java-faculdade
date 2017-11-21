@@ -1,4 +1,4 @@
 # Repositório arquivos Java
 
-##matérias
-#Algoritmos e estruturas de dados
+## matérias
+Algoritmos e estruturas de dados
