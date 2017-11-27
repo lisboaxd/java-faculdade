@@ -18,7 +18,7 @@ public class PrincipalFila {
             System.out.println("Digite um um numero: ");
             num = teclado.nextInt();
             fila.inserirInicio(num);
-            System.out.println("Inserir novamente? sim (1) NÃO [0]: ");
+            System.out.println("Inserir novamente? sim [1] NÃO [0]: ");
             num = teclado.nextInt();
             if(num == 0){
                 decisao = false;

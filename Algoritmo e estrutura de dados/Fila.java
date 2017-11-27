@@ -1,4 +1,4 @@
-package algorotimo;
+package algoritmo;
 
 public class Fila {
 
