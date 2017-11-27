@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+import java.util.Random;
 
 /**
  * Lista estatica
@@ -28,6 +29,12 @@ class PrincipalLista {
                     + "7) Mostrar todos os elementos da lista\n"
                     + "8) Pesquisa sequencial\n"
                     + "9) Pesquisa binária\n"
+                    + "10) Criar uma lista com 100 elementos aleatorios \n"
+                    + "11) Maior numero \n"
+                    + "12) Menor numero \n"
+                    + "13) Soma de todos numeros \n"
+                    + "14) Media dos numeros da Lista \n"
+                    + "15) Quantidade de numeros Pares \n"
                     + "0) Sair"
                     + "\n Escolha uma opcao: ");
             int opcao = teclado.nextInt();
@@ -84,6 +91,20 @@ class PrincipalLista {
                         System.out.println("Elemento nao encontrado");
                     }
                     opcao = -1;
+                    break;
+                case 10:
+                    Random random = new Random(100);
+                    random.nextInt();
+                    break;
+                case 11:
+                    break;
+                case 12:
+                    break;
+                case 13:
+                    break;
+                case 14:
+                    break;
+                case 15:
                     break;
                 default:
                     System.out.println("Programa Finalizado");
